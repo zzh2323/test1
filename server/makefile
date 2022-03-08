@@ -1,0 +1,2 @@
+run:main.c z_block_server.c zchat_server_controller.c client_list.c common_utils.c register_service.c upline_user_service.c msg_send_service.c chat_dao.c sending_file_list.c file_send_service.c thread_pool.c
+	gcc main.c z_block_server.c zchat_server_controller.c client_list.c common_utils.c register_service.c upline_user_service.c msg_send_service.c chat_dao.c sending_file_list.c file_send_service.c thread_pool.c -o run -lpthread -lsqlite3
